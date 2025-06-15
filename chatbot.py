@@ -3,8 +3,6 @@ import groq
 
 modelos = ["llama3-70b-8192", "llama3-8b-8192", "gemma-7b-it"]
 
-print(groq.__version__)
-
 def configurar_pagina():
     st.set_page_config(
         page_title="chatbot")
